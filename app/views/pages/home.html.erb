@@ -7,7 +7,7 @@
     <div class="col-md-6">
       <div class="left-desc">
         <div class="title">
-          <h2>Find and Reach your audience at the right price.</h2>
+          <h2>Find and Reach your audience in the best way.</h2>
         </div>
         <div class="sub-title">
           <p>campeo makes it easy to show the world what’s unique about your products, so you can reach customers searching for what you offer.</p>
@@ -93,18 +93,24 @@
 <div class="padded"></div>
 <div class="banner-img" style="background-image: url(<%= asset_path '8678.jpg' %>)">
 </div>
-<div class="padded-x2"></div>
+<div class="padded"></div>
 <div class="container">
   <div class="row">
-    <div class="col-md-12 text-center base-title" style="margin-bottom: 2em">
+    <div class="col-md-12 text-center base-title" style="margin-bottom: 1em">
       <%= image_tag(asset_path('logo.png'), style:"width: 10%;margin-bottom: 2em") %>
       <h1 style="margin-bottom: 1em">Get more customers with <strong>campeo</strong></h1>
-      <a class="btn btn-flat" href="#">Start now</a>
+      <a class="btn btn-flat" style="margin-bottom: 1em" href="#">Start now</a>
     </div>
     <div class="col-md-12 text-center">
       <p style="color: grey">Or call us for help setting up your account.<br>
         0033767669504*<br>
       Mon-Fri, 9am-6pm</p>
+      <div class="ratings">
+        <% 5.times do %>
+          <i class='fas fa-star gold'></i>
+        <% end %>
+      </div>
+      <p>Rated by our partners</p>
     </div>
   </div>
 </div>
