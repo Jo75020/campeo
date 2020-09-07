@@ -1,1 +1,68 @@
 // Specific CSS for your home-page
+.left-desc {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.base-title {
+  h1 {
+    margin-bottom: 2em;
+  }
+}
+
+.tiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    font-weight: 600;
+    padding-top: 0.5em;
+    text-transform: uppercase;
+  }
+  .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 40%
+    }
+  }
+  .desc {
+    text-align: center;
+    font-weight: 300;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+  }
+}
+
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2.5em;
+  i {
+    font-size: 6em;
+  }
+  img {
+    width: 8%;
+  }
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.google {
+  color: #FF0000;
+}
+
+.instagram {
+  color: #8a3ab9;
+}

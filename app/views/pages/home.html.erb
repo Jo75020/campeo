@@ -1,2 +1,111 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= render 'home/main_banner' %>
+<div class="banner-img" style="background-image: url(<%= asset_path '4040310.jpg' %>)">
+</div>
+<div class="padded"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="left-desc">
+        <div class="title">
+          <h2>Find and Reach your audience at the right price.</h2>
+        </div>
+        <div class="sub-title">
+          <p>Campeo makes it easy to show the world what’s unique about your products, so you can reach customers searching for what you offer.</p>
+          <p>Whether they're on their desk or on their laptop, turn people into valuable customers with well-placed advertising.</p>
+        </div>
+        <a href="">Start now <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <%= image_tag(asset_path('30738.jpg'), style:"width: 100%") %>
+    </div>
+  </div>
+</div>
+<div class="padded-x2"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center base-title">
+      <h1>Get the results that matter to you</h1>
+    </div>
+    <div class="col-md-4">
+      <div class="tiles">
+        <div class="img"><%= image_tag(asset_path('performance.png')) %></div>
+        <div class="title">Drive website visits</div>
+        <div class="desc">Increase the audience of your online store and increase conversion to sales.</div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="tiles">
+        <div class="img"><%= image_tag(asset_path('objective.png')) %></div>
+        <div class="title">Reach your audience</div>
+        <div class="desc">Increase sales with ads that reach the right customers at the right time.</div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="tiles">
+        <div class="img"><%= image_tag(asset_path('trend.png')) %></div>
+        <div class="title">Scale up your business</div>
+        <div class="desc">Increase your turnover without extra effort. You don't need any special skills to start selling.</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="padded-x2"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="left-desc">
+        <div class="title">
+          <h2>Set a budget that <br>works for your business.</h2>
+        </div>
+        <div class="sub-title">
+          <p>Campeo can work for almost any advertising budget. Set a monthly budget cap, and never exceed it. Optimize the campaigns or stop them whenever you want.</p>
+        </div>
+        <a href="">Learn more about setting a budget <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <%= image_tag(asset_path('2178072.png'), style:"width: 100%") %>
+    </div>
+  </div>
+</div>
+<div class="padded-x2"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center base-title">
+      <h1>Partner with <strong>Campeo</strong> to find the right customers</h1>
+    </div>
+    <div class="col-md-12 partners">
+      <%= image_tag(asset_path('tiktok.png')) %>
+      <i class="fab fa-facebook facebook"></i>
+      <i class="fab fa-twitter twitter"></i>
+      <i class="fab fa-instagram instagram"></i>
+      <%= image_tag(asset_path('google.png')) %>
+    </div>
+    <div class="col-md-12 text-center">
+      <p>With our smart and easy advertising, we reach more relevant customers while staying within your budget. Plus, we improve your ads over time to get more results that matter to your business.</p>
+    </div>
+    <div class="col-md-12 text-center">
+      <a href="">Learn how <strong>Campeo</strong> works <i class="fas fa-arrow-circle-right"></i></a>
+    </div>
+  </div>
+</div>
+<div class="padded"></div>
+<div class="banner-img" style="background-image: url(<%= asset_path '8678.jpg' %>)">
+</div>
+<div class="padded-x2"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center base-title" style="margin-bottom: 2em">
+      <%= image_tag(asset_path('logo.png'), style:"width: 10%;margin-bottom: 2em") %>
+      <h1 style="margin-bottom: 1em">Get more customers with <strong>Campeo</strong></h1>
+      <a class="btn btn-flat" href="#">Start now</a>
+    </div>
+    <div class="col-md-12 text-center">
+      <p style="color: grey">Or call us for help setting up your account.<br>
+        0033767669504*<br>
+      Mon-Fri, 9am-6pm</p>
+    </div>
+  </div>
+</div>
+<div class="padded-x2"></div>
